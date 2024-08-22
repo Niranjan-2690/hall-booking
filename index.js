@@ -164,7 +164,7 @@ httpServer.get("/bookedcustomers/:customername", (req, res)=>{
     })
 })
 
-httpServer.listen(3000, "localhost", (err)=>{
+httpServer.listen(3000, "0.0.0.0", (err)=>{
     if(err){
         console.log("Error", err)
     }else{
